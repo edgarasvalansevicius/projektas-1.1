@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Naudot žaislų platforma</title>
+  <title>Naudotų žaislų platforma</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
@@ -31,49 +31,47 @@
     </div>
   </div>
 
-  <div class="small-container">
-    <div class="row row-2">
-      <h2>Naujausi Skelbimai</h2>
-      <select name="" id="">
-        <option value="">Rūšioti Pagal</option>
-        <option value="">Kaina</option>
-        <option value="">Data</option>
-      </select>
-    </div>
-
+  <!-- Single Products Detail -->
+  <div class="small-container single-product">
     <div class="row">
-      <div class="row">
-        <div class="col-4">
-          <a href="product-details.html">
-            <img src="./assets/images/tigras.jpg" alt=""
-          /></a>
-          <h4>Tigras</h4>
-          <p>$10.00</p>
-        </div>
+      <div class="col-2">
+        <img src="./assets/images/traukinukas.jpg" width="100%" id="ProductImg" />
 
-        <div class="col-4">
-          <a href="traukinukas.html">
-          <img src="./assets/images/traukinukas.jpg" alt=""
-        /></a>
-          <h4>Traukinukas</h4>
-          <p>$20.00</p>
-        </div>
-
-        <div class="col-4">
-          <a href="traktorius.html">
-          <img src="./assets/images/Traktorius.jpg" alt="" 
-          /></a>
-          <h4>Traktorius</h4>
-          <p>$30.00</p>
-        </div>
-        <div class="col-4">
-          <a href="pop-it.html">
-          <img src="./assets/images/Pop it.jpg" alt="" /></a>
-          <h4>Pop IT</h4>
-          <p>$40.00</p>
+        <div class="small-img-row">
+          <div class="small-img-col">
+            <img src="./assets/images/traukinukas.jpg" class="small-img" />
+          </div>
+          <div class="small-img-col">
+            <img src="./assets/images/traukinukas.jpg" class="small-img" />
+          </div>
+          <div class="small-img-col">
+            <img src="./assets/images/traukinukas.jpg" class="small-img" />
+          </div>
+          <div class="small-img-col">
+            <img src="./assets/images/traukinukas.jpg" class="small-img" />
+          </div>
         </div>
       </div>
-      <h2 class="title">Visi Skelbimai</h2>
+      <div class="col-2">
+        <p>Traukinukas</p>
+        <h2>Interaktyvus žaislai</h2>
+        <h4>$50.00</h4>
+        <input type="number" value="1" />
+        <a href="" class="btn">Į prekių krepšelį</a>
+        <h3>Aprašymas<i class="fa fa-indent"></i></h3>
+        <br />
+        <p>
+            Dviguba lenktynių trasa, kurios konstrukciniai elementai leidžia sukurti trasą su staigiais posūkiais, serpantinais ir tiesiomis atkarpomis – visa tai leidžia maksimaliai smagiai praleisti laiką. Automobiliai gali išvystyti iki 20 km/h greitį!
+
+            Automobilis ir traukinys gali judėti be jokių avarijų. Nuotolinio valdymo pultas yra ergonomiškos formos, kad puikiai tilptų į vaikų rankas, kad žaidžiant neišslystų iš rankų.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <div class="small-container">
+    <h2 class="title">Visi Skelbimai</h2>
       <div class="row">
         <div class="col-4">
           <a href="product-details.html">
